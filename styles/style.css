@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url(/resources/welcom.jpg);
+  background-image: url(../resources/welcom.jpg);
   height: 765px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,7 +210,7 @@ p {
 } 
 
 .contacts{
-  background-image: url(/resources/communication.png);
+  background-image: url(../resources/communication.png);
   height: 717px;
   position: relative;
   background-repeat: no-repeat;
