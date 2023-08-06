@@ -1,0 +1,264 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  background: #000;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(/resources/welcom.jpg);
+  height: 765px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.logo {
+  color: #1bff07;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -4.666px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background: #000;
+  width: 150px;
+  position: absolute;
+  top: 36px;
+  padding: 0 12px 0 9px;
+}
+
+.nav {
+  float: right;
+  margin-top: 33px;
+}
+
+.nav__link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.54px;
+  text-transform: lowercase;
+  padding-left: 50px;
+}
+
+.nav__link:hover {
+  color: #1bff07;
+}
+
+.welcome-title {
+  position: absolute;
+  top: 334px;
+  width: 430px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+}
+
+h1 {
+  position: absolute;
+  top: 466px;
+  width: 919px;
+  color: #1bff07;
+  font-size: 80px;
+  line-height: 70px;
+  letter-spacing: -2.4px;
+}
+
+section {
+  padding-bottom: 150px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: -1.65px;
+  padding-bottom: 40px;
+}
+
+.project {
+  padding-top: 150px;
+}
+
+.project__item {
+  padding-bottom: 80px;
+}
+
+.project__items {
+  height: 550px;
+  position: relative;
+}
+
+h3 {
+  top: 410px;
+  left: 50px;
+  position: absolute;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: -1.05px;
+}
+
+.project__items-title {
+  position: absolute;
+  top: 461px;
+  left: 50px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+}
+
+.project__btn {
+  display: inline-block;
+  width: 582px;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  border-radius: 10px;
+  background: #1bff07;
+  padding: 56px 85px;
+}
+
+.project__btn:hover {
+    color: #1BFF07;
+    background: #000;
+    border: 1px solid #1BFF07;
+}
+
+.competecies__items {
+  margin-bottom: 60px;
+}
+
+.competecies__items:before {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 44px;
+  margin-bottom: 12px;
+  background-image: url(/resources/icon/icon-html.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.competecies__items-js:before {
+  background-image: url(/resources/icon/icon-js.png);
+}
+
+.competecies__items-framework:before {
+  background-image: url(/resources/icon/icon-framework.png);
+}
+
+.competecies__items-react:before {
+  background-image: url(/resources/icon/icon-react.png);
+  margin-bottom: 0;
+}
+
+.competencies__item h3{
+  color: #1BFF07;
+  position: static;
+  padding-bottom: 15px;
+}
+
+p {
+  font-size: 22px;
+  letter-spacing: -0.66px;
+}
+
+.competencies__item-text {
+  color: #FFF;
+  width: 778px;
+}
+
+.competecies__items:last-child {
+  margin-bottom: 0;
+}
+
+.skill-subtitle {
+  padding-bottom: 74px;
+}
+
+.skill__items {
+  margin-bottom: 74px;
+}
+
+.skill__item-background {
+  background-color: #191C19;
+  border-radius: 30px;
+  height: 283px;
+  padding: 40px;
+}
+
+.skill__items-subtite {
+  color: #1BFF07;
+}
+
+.skill__items-text {
+  color: #FFF;
+  width: 749px;
+}
+
+.skill__items:last-child {
+  margin-bottom: 0;
+} 
+
+.contacts{
+  background-image: url(/resources/communication.png);
+  height: 717px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-bottom: 150px;
+}
+
+.contacts__subtitle {
+  padding-bottom: 0;
+  padding-top: 320px;
+  line-height: 60px; 
+  letter-spacing: -1.05px;
+}
+
+.contacts__text{
+  padding-top: 20px;
+  color: #FFF;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+
+.contacts__text:nth-child(1) {
+  padding-top: 27px;
+}
+
+.contacts__text:hover {
+  color: #1bff07;
+}
+
+footer {
+  background-color: #fff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.footer__about {
+  padding-top: 76px;
+  color: #000;
+  font-family: Manrope;
+}
+
+.footer__title {
+  padding: 66px 0 24px;
+  color: #000;
+  font-family: Manrope;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  opacity: 0.5;
+}
